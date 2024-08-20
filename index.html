@@ -140,8 +140,14 @@
             <b><h1> Thông tin cá nhân </h1></b>
             <input type="email" id="email">
             <p class="error-email"></p>
-            <button type="button" class="btn btn-submit btn-primary" id = "button">Submit</button>
-            <h6 style="color: #f8f3f3;"> Hãy nhập email để xác thực </h6>
+            
+            <h6 style="background-color: #ffd700;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: bold;
+            display: inline-block;"> Hãy nhập email để xác thực </h6>
+            <button type="button" style="display: block;" class="btn btn-submit btn-primary" id = "button">Submit</button>
           </div>
         </div>
         
@@ -462,89 +468,91 @@
   
 </div>
 
-<div class="projects">
-  <div class="project">
-      <img src="1.png" alt="Project 1">
-      <div class="project-info">
-          <h3>CV CÁ NHÂN</h3>
-          <div class="project-details">
-              <span class="year">2021</span>
-              <span class="company">FUNiX</span>
-              <span class="role">Developer</span>
+<div class="container">
+  <div class="row">
+      <div class="col-md-4">
+          <div class="project">
+              <img src="1.png" alt="Project 1">
+              <div class="p-3">
+                  <h3>CV CÁ NHÂN</h3>
+                  <div class="project-details">
+                      <span class="year">2021</span>
+                      <span class="company">FUNiX</span>
+                      <span class="role">Developer</span>
+                  </div>
+                  <table>
+                      <tr>
+                          <th>Mô tả</th>
+                          <td>Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kỹ năng nghề nghiệp.</td>
+                      </tr>
+                      <tr>
+                          <th>Nhiệm vụ</th>
+                          <td>Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+                      </tr>
+                      <tr>
+                          <th>Công nghệ</th>
+                          <td>HTML, CSS</td>
+                      </tr>
+                  </table>
+              </div>
           </div>
-          <table>
-              <tr>
-                  <th>Mô tả</th>
-                  <td>Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kỹ năng nghề nghiệp.</td>
-              </tr>
-              <tr>
-                  <th>Nhiệm vụ</th>
-                  <td>Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
-              </tr>
-              <tr>
-                  <th>Công nghệ</th>
-                  <td>HTML, CSS</td>
-              </tr>
-          </table>
       </div>
-  </div>
-
-  <!-- Thêm các dự án khác theo cùng mẫu này -->
-  <div class="project">
-      <img src="1.png" alt="Project 2">
-      <div class="project-info">
-          <h3>TRANG WEB QUẢN LÝ THÚ CƯNG</h3>
-          <div class="project-details">
-              <span class="year">2021</span>
-              <span class="company">FUNiX</span>
-              <span class="role">Developer</span>
+      <div class="col-md-4">
+          <div class="project">
+              <img src="1.png" alt="Project 2">
+              <div class="p-3">
+                  <h3>TRANG WEB QUẢN LÝ THÚ CƯNG</h3>
+                  <div class="project-details">
+                      <span class="year">2021</span>
+                      <span class="company">FUNiX</span>
+                      <span class="role">Developer</span>
+                  </div>
+                  <table>
+                      <tr>
+                          <th>Mô tả</th>
+                          <td>Ứng dụng giúp quản lý các thông tin của thú cưng.</td>
+                      </tr>
+                      <tr>
+                          <th>Nhiệm vụ</th>
+                          <td>Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+                      </tr>
+                      <tr>
+                          <th>Công nghệ</th>
+                          <td>HTML, CSS, Javascript</td>
+                      </tr>
+                  </table>
+              </div>
           </div>
-          <table>
-              <tr>
-                  <th>Mô tả</th>
-                  <td>Ứng dụng giúp quản lý các thông tin của thú cưng.</td>
-              </tr>
-              <tr>
-                  <th>Nhiệm vụ</th>
-                  <td>Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
-              </tr>
-              <tr>
-                  <th>Công nghệ</th>
-                  <td>HTML, CSS, Javascript</td>
-              </tr>
-          </table>
       </div>
-  </div>
-  
-  <!-- Thêm dự án thứ ba tương tự -->
-
-<div class="project">
-  <img src="1.png" alt="Project 2">
-  <div class="project-info">
-      <h3>TRANG WEB QUẢN LÝ THÚ CƯNG</h3>
-      <div class="project-details">
-          <span class="year">2021</span>
-          <span class="company">FUNiX</span>
-          <span class="role">Developer</span>
+      <div class="col-md-4">
+          <div class="project">
+              <img src="1.png" alt="Project 3">
+              <div class="p-3">
+                  <h3>TRANG WEB XEM TIN TỨC</h3>
+                  <div class="project-details">
+                      <span class="year">2021</span>
+                      <span class="company">FUNiX</span>
+                      <span class="role">Developer</span>
+                  </div>
+                  <table>
+                      <tr>
+                          <th>Mô tả</th>
+                          <td>Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức dựa theo từ khóa.</td>
+                      </tr>
+                      <tr>
+                          <th>Nhiệm vụ</th>
+                          <td>Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
+                      </tr>
+                      <tr>
+                          <th>Công nghệ</th>
+                          <td>HTML, CSS, Javascript</td>
+                      </tr>
+                  </table>
+              </div>
+          </div>
       </div>
-      <table>
-          <tr>
-              <th>Mô tả</th>
-              <td>Ứng dụng giúp quản lý các thông tin của thú cưng.</td>
-          </tr>
-          <tr>
-              <th>Nhiệm vụ</th>
-              <td>Phát triển code - Review code - Tối ưu code - Xử lý lỗi</td>
-          </tr>
-          <tr>
-              <th>Công nghệ</th>
-              <td>HTML, CSS, Javascript</td>
-          </tr>
-      </table>
   </div>
 </div>
-  </div>
-      
   
 <script src="script.js"></script>    
 <footer style="background-color: black; text-align: center;">
